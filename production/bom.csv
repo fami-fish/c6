@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"BT1_2, BT1, BT2",BatteryHolder_Keystone_3034_1x20mm_HandSolder_design,3,Battery_Cell,
+"D1, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D2, D20, D21, D3, D4, D5, D6, D7, D8, D9",Diode_THT_SMD,21,D_Small,
+J1,OLED-128x32-double-sided,1,OLED-128x32,
+J2,JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal_Reversible,1,Battery_connector,
+J3,CON_MJ-4PP-9_Reversible,1,AudioJack4,
+"MX1, MX10, MX11, MX12, MX13, MX14, MX15, MX16, MX17, MX18, MX2, MX20, MX3, MX4, MX5, MX6, MX7, MX8, MX9",MX-Optional-Reversible-1U,19,MX_SW_solder,
+"MX19, MX21",MX-Optional-Reversible-1.5U,2,MX_SW_solder,
+"TP1, TP2, TP3, TP4, TP5",TestPoint_Pad_D1.5mm,5,TestPoint,
+U1,rp2040-zero-tht,1,rp2040-zero/xiao,
+U3,SOT-363_SC-70-6_Handsoldering,1,LM66100DCK,

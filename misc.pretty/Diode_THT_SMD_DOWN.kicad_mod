@@ -1,0 +1,376 @@
+(footprint "Diode_THT_SMD_DOWN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "D**"
+		(at -0.0254 1.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "675b267a-0c47-4226-b39f-11a4bd16762a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D"
+		(at 0 -1.925 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e3a35b4a-13f3-4ec5-a088-3a8aaaad123c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a25ff21b-7b10-456a-8f48-daa84d96cb12")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7cb3ed1-aeb4-43e6-ab1d-a703dab62c55")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "661e895b-b41d-4d04-95fd-65a16d9f8cc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.3 -0.8)
+		(end -3.1 -0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "e1af9121-252e-485a-8586-2f4990a9c81f")
+	)
+	(fp_line
+		(start -3.3 0.8)
+		(end -3.1 0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "767ac3c9-2724-4e02-b3ea-c766d8e1e551")
+	)
+	(fp_line
+		(start -0.6 0.8)
+		(end 3.3 0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "619e82b5-80f0-4180-95e6-2cb8bbe781a7")
+	)
+	(fp_line
+		(start 0.4 0.5)
+		(end 0.4 -0.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "4938a1bf-d5bd-468d-958f-00fe7356a66a")
+	)
+	(fp_line
+		(start 3.3 -0.8)
+		(end -0.6 -0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "64e42ad7-91fa-43aa-8bab-0fdfae63c307")
+	)
+	(fp_poly
+		(pts
+			(xy 0.3 0) (xy -0.4 0.5) (xy -0.4 -0.5)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "44a57466-ad96-4938-ba22-e9ba4d168771")
+	)
+	(fp_line
+		(start -3.3 0.8)
+		(end 3.3 0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa75dc38-4834-47cc-be64-aa26f8b6cb33")
+	)
+	(fp_line
+		(start 0.4 0.5)
+		(end 0.4 -0.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d82505f7-0542-4d60-84bc-6f8f3535f3ec")
+	)
+	(fp_line
+		(start 3.3 -0.8)
+		(end -3.3 -0.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bfa83e5b-038d-4991-a5f1-29ec4e73dc69")
+	)
+	(fp_poly
+		(pts
+			(xy 0.3 0) (xy -0.4 0.5) (xy -0.4 -0.5)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "f3e79283-8441-4f20-a3af-d69ea57a6e44")
+	)
+	(pad "1" smd custom
+		(at 2.5 0)
+		(size 3.8 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1.57 -0.67) (xy 1.44 -0.69) (xy 1.36 -0.69) (xy 1.24 -0.68) (xy 1.14 -0.66) (xy 1.07 -0.63)
+					(xy 1 -0.59) (xy 0.85 -0.54) (xy 0.69 -0.51) (xy 0.32 -0.49) (xy 1.27 -0.35)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 1.57 0.67) (xy 1.44 0.69) (xy 1.36 0.69) (xy 1.24 0.68) (xy 1.14 0.66) (xy 1.07 0.63) (xy 1 0.59)
+					(xy 0.85 0.54) (xy 0.69 0.51) (xy 0.32 0.49) (xy 1.27 0.35)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 5)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "7682b30c-e2eb-463e-991c-6407034d54a3")
+	)
+	(pad "1" smd custom
+		(at 2.5 0)
+		(size 3.8 1.2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1.56 -0.67) (xy 1.43 -0.69) (xy 1.35 -0.69) (xy 1.23 -0.68) (xy 1.13 -0.66) (xy 1.06 -0.63)
+					(xy 0.99 -0.59) (xy 0.84 -0.54) (xy 0.68 -0.51) (xy 0.31 -0.49) (xy 1.26 -0.35)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 1.57 0.67) (xy 1.44 0.69) (xy 1.36 0.69) (xy 1.24 0.68) (xy 1.14 0.66) (xy 1.07 0.63) (xy 1 0.59)
+					(xy 0.85 0.54) (xy 0.69 0.51) (xy 0.32 0.49) (xy 1.27 0.35)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 5)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "a9f30ab2-a77b-44cc-a339-fc2c7de9aa45")
+	)
+	(pad "1" thru_hole circle
+		(at 3.9 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.SilkS" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 5)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "45dd67cc-0118-44a5-bc5a-63aec308d78a")
+	)
+	(pad "2" thru_hole circle
+		(at -3.9 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.SilkS" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "1b74fd87-a366-4d38-8cb8-ae8d6c62029e")
+	)
+	(pad "2" smd custom
+		(at -2.5 0)
+		(size 3.8 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.57 -0.67) (xy -1.44 -0.69) (xy -1.36 -0.69) (xy -1.24 -0.68) (xy -1.14 -0.66) (xy -1.07 -0.63)
+					(xy -1 -0.59) (xy -0.85 -0.54) (xy -0.69 -0.51) (xy -0.32 -0.49) (xy -1.27 -0.35)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -1.57 0.67) (xy -1.44 0.69) (xy -1.36 0.69) (xy -1.24 0.68) (xy -1.14 0.66) (xy -1.07 0.63)
+					(xy -1 0.59) (xy -0.85 0.54) (xy -0.69 0.51) (xy -0.32 0.49) (xy -1.27 0.35)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 5)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "c9b5478e-7d3c-40bc-ab27-e455ece7e73d")
+	)
+	(pad "2" smd custom
+		(at -2.5 0)
+		(size 3.8 1.2)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.57 -0.67) (xy -1.44 -0.69) (xy -1.36 -0.69) (xy -1.24 -0.68) (xy -1.14 -0.66) (xy -1.07 -0.63)
+					(xy -1 -0.59) (xy -0.85 -0.54) (xy -0.69 -0.51) (xy -0.32 -0.49) (xy -1.27 -0.35)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -1.57 0.67) (xy -1.44 0.69) (xy -1.36 0.69) (xy -1.24 0.68) (xy -1.14 0.66) (xy -1.07 0.63)
+					(xy -1 0.59) (xy -0.85 0.54) (xy -0.69 0.51) (xy -0.32 0.49) (xy -1.27 0.35)
+				)
+				(width 0.2)
+				(fill yes)
+			)
+		)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 5)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "577b8fe4-2101-4fd0-959c-b51c8ed958d4")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Diodes_SMD.3dshapes/D_SOD-123.step"
+		(offset
+			(xyz 0 0 -1.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 180 0)
+		)
+	)
+)
